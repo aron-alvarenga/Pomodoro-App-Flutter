@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class EntradaTempo extends StatelessWidget {
@@ -13,7 +14,47 @@ class EntradaTempo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: [Text(this.titulo), Text('${this.valor}')],
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: [
+        Text(
+          this.titulo,
+          style: TextStyle(fontSize: 18),
+        ),
+        SizedBox(height: 10),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            ElevatedButton(
+              onPressed: () {},
+              child: Icon(
+                Icons.arrow_upward,
+                color: Colors.white,
+              ),
+              style: ElevatedButton.styleFrom(
+                shape: CircleBorder(),
+                padding: EdgeInsets.all(15),
+                primary: Colors.red,
+              ),
+            ),
+            Text(
+              '${this.valor} min',
+              style: TextStyle(fontSize: 18),
+            ),
+            ElevatedButton(
+              onPressed: () {},
+              child: Icon(
+                Icons.arrow_downward,
+                color: Colors.white,
+              ),
+              style: ElevatedButton.styleFrom(
+                shape: CircleBorder(),
+                padding: EdgeInsets.all(15),
+                primary: Colors.red,
+              ),
+            ),
+          ],
+        ),
+      ],
     );
   }
 }
