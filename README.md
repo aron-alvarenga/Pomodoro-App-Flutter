@@ -31,3 +31,19 @@ Inicializar a aplicação utilizando o Google Chrome
   <img width="200" alt="Imagem da aplicação durante o ciclo Work" src="./flutter_01.png">
   <img width="200" alt="Imagem da aplicação durante o ciclo Break" src="./flutter_02.png">
 </div>
+
+## To Do
+
+- [x] Mobx na Prática
+- [x] Componentes Iniciais
+- [x] Componente EntradaTempo #01
+- [x] Componente Cronômetro
+- [ ] Componente Botão Cronômetro
+- [ ] Pomodoro Store #01
+- [ ] Componente EntradaTempo #02
+- [ ] Pomodoro Store #02
+- [ ] Pomodoro Store #03
+- [ ] Pomodoro Store #04
+- [ ] Pomodoro Store #05
+- [ ] Testando no iOS
+- [ ] Melhorando a geração de código
