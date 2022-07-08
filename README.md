@@ -42,7 +42,7 @@ Inicializar a aplicação utilizando o Google Chrome
 - [x] Pomodoro Store #01
 - [x] Componente EntradaTempo #02
 - [x] Pomodoro Store #02
-- [ ] Pomodoro Store #03
+- [x] Pomodoro Store #03
 - [ ] Pomodoro Store #04
 - [ ] Pomodoro Store #05
 - [ ] Testando no iOS
