@@ -40,7 +40,7 @@ Inicializar a aplicação utilizando o Google Chrome
 - [x] Componente Cronômetro
 - [x] Componente Botão Cronômetro
 - [x] Pomodoro Store #01
-- [ ] Componente EntradaTempo #02
+- [x] Componente EntradaTempo #02
 - [ ] Pomodoro Store #02
 - [ ] Pomodoro Store #03
 - [ ] Pomodoro Store #04
