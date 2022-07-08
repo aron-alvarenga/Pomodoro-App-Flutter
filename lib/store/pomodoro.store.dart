@@ -25,7 +25,7 @@ abstract class _PomodoroStore with Store {
   int tempoDescanso = 1;
 
   @observable
-  TipoIntervalo tipoIntervalo = TipoIntervalo.TRABALHO;
+  TipoIntervalo tipoIntervalo = TipoIntervalo.DESCANSO;
 
   Timer? cronometro;
 
@@ -52,7 +52,6 @@ abstract class _PomodoroStore with Store {
 
   @action
   void reiniciar() {
-    iniciado = false;
     parar();
     minutos = estaTrabalhando() ? tempoTrabalho : tempoDescanso;
     segundos = 0;
@@ -68,9 +67,11 @@ abstract class _PomodoroStore with Store {
 
   @action
   void decrementarTempoTrabalho() {
-    tempoTrabalho--;
-    if (estaTrabalhando()) {
-      reiniciar();
+    if (tempoTrabalho > 1) {
+      tempoTrabalho--;
+      if (estaTrabalhando()) {
+        reiniciar();
+      }
     }
   }
 
@@ -84,9 +85,11 @@ abstract class _PomodoroStore with Store {
 
   @action
   void decrementarTempoDescanso() {
-    tempoDescanso--;
-    if (estaDescansando()) {
-      reiniciar();
+    if (tempoDescanso > 1) {
+      tempoDescanso--;
+      if (estaDescansando()) {
+        reiniciar();
+      }
     }
   }
 

@@ -44,7 +44,4 @@ Inicializar a aplicação utilizando o Google Chrome
 - [x] Pomodoro Store #02
 - [x] Pomodoro Store #03
 - [x] Pomodoro Store #04
-- [x] Pomodoro Store #05 <s>
-- [ ] Testando no iOS
-      </s>
-- [ ] Melhorando a geração de código
+- [x] Pomodoro Store #05
