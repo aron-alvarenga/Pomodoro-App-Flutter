@@ -1,8 +1,8 @@
-# Pomodoro App Flutter
+# ⏰ Pomodoro App Flutter
 
 Aplicação Mobile Pomodoro em Flutter, desenvolvida durante o treinamento "Flutter e MobX: Desenvolva uma Aplicação Completa - Masterclass 2021" do canal **Cod3r Cursos** disponível no [YouTube](https://www.youtube.com/watch?v=LeRjIY4n2Vk).
 
-## Informações adicionais
+## ⚙️ Informações adicionais
 
 - Flutter v. 2.5.1
 - Dart v. 2.14.2
@@ -25,14 +25,14 @@ Inicializar a aplicação utilizando o Google Chrome
   flutter run -d chrome --no-sound-null-safety
 ```
 
-## Imagens
+## 🖼️ Imagens
 
 <div align="center">
   <img width="200" alt="Imagem da aplicação durante o ciclo Work" src="./flutter_01.png">
   <img width="200" alt="Imagem da aplicação durante o ciclo Break" src="./flutter_02.png">
 </div>
 
-## To Do
+## 📝 To Do
 
 - [x] Mobx na Prática
 - [x] Componentes Iniciais
@@ -44,6 +44,7 @@ Inicializar a aplicação utilizando o Google Chrome
 - [x] Pomodoro Store #02
 - [x] Pomodoro Store #03
 - [x] Pomodoro Store #04
-- [ ] Pomodoro Store #05
+- [x] Pomodoro Store #05 <s>
 - [ ] Testando no iOS
+      </s>
 - [ ] Melhorando a geração de código
