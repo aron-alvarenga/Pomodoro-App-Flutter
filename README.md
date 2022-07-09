@@ -6,7 +6,6 @@ Aplicação Mobile Pomodoro em Flutter, desenvolvida durante o treinamento "Flut
 
 - Flutter v. 2.5.1
 - Dart v. 2.14.2
-- Google Fonts v. 1.0.0
 - Mobx: v. 2.0.3
 - Flutter Mobx: v. 2.0.1
 - Provider: v.5.0.0
