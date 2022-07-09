@@ -19,12 +19,11 @@ class Cronometro extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                store.estaTrabalhando()
-                    ? 'Hora de Trabalhar'
-                    : 'Hora de Descansar',
+                store.estaTrabalhando() ? 'Work' : 'Break',
                 style: TextStyle(
                   fontSize: 40,
                   color: Colors.white,
+                  fontFamily: 'DotGothic16',
                 ),
               ),
               SizedBox(height: 20),
@@ -33,6 +32,7 @@ class Cronometro extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 120,
                   color: Colors.white,
+                  fontFamily: 'DotGothic16',
                 ),
               ),
               SizedBox(height: 20),
@@ -43,7 +43,7 @@ class Cronometro extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(right: 10),
                       child: CronometroBotao(
-                        texto: 'Iniciar',
+                        texto: 'Start',
                         icone: Icons.play_arrow,
                         click: store.iniciar,
                       ),
@@ -52,15 +52,15 @@ class Cronometro extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(right: 10),
                       child: CronometroBotao(
-                        texto: 'Parar',
-                        icone: Icons.stop,
+                        texto: 'Pause',
+                        icone: Icons.pause,
                         click: store.parar,
                       ),
                     ),
                   Padding(
                     padding: const EdgeInsets.only(left: 10),
                     child: CronometroBotao(
-                      texto: 'Reiniciar',
+                      texto: 'Restart',
                       icone: Icons.refresh,
                       click: store.reiniciar,
                     ),

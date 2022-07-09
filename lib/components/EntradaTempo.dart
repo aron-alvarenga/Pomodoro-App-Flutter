@@ -26,7 +26,10 @@ class EntradaTempo extends StatelessWidget {
       children: [
         Text(
           this.titulo,
-          style: TextStyle(fontSize: 18),
+          style: TextStyle(
+            fontSize: 18,
+            fontFamily: 'DotGothic16',
+          ),
         ),
         SizedBox(height: 10),
         Row(
@@ -46,7 +49,10 @@ class EntradaTempo extends StatelessWidget {
             ),
             Text(
               '${this.valor} min',
-              style: TextStyle(fontSize: 18),
+              style: TextStyle(
+                fontSize: 18,
+                fontFamily: 'DotGothic16',
+              ),
             ),
             ElevatedButton(
               onPressed: this.inc,

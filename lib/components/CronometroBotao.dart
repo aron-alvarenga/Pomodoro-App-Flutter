@@ -23,6 +23,7 @@ class CronometroBotao extends StatelessWidget {
         ),
         textStyle: TextStyle(
           fontSize: 25,
+          fontFamily: 'DotGothic16',
         ),
       ),
       onPressed: click,

@@ -2,9 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:pomodoro/pages/Pomodoro.dart';
 import 'package:provider/provider.dart';
 import './store/pomodoro.store.dart';
+import 'package:flutter/services.dart';
 
 void main() {
-  runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations(
+      [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
+
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
