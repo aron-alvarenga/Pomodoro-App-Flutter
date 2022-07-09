@@ -18,8 +18,8 @@ class CronometroBotao extends StatelessWidget {
       style: ElevatedButton.styleFrom(
         primary: Colors.black,
         padding: EdgeInsets.symmetric(
-          horizontal: 30.0,
-          vertical: 20.0,
+          horizontal: 20.0,
+          vertical: 10.0,
         ),
         textStyle: TextStyle(
           fontSize: 25,
